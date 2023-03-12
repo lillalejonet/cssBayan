@@ -1,0 +1,16 @@
+body {
+  background: whitesmoke;
+  font-weight: normal;
+  font-family: 'Times New Roman', Times, serif;
+}
+
+h1 {
+    color:black;
+}
+img {
+position: relative;
+}
+
+.fa-solid {
+    color:black
+}
