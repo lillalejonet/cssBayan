@@ -7,90 +7,97 @@
   }
 }
 @media screen and (min-width: 1180px) {
-    h1 {
-        font-size: 5vw;
-      }
-      h2 {
-        font-size: 3vw;
-      }
-}
-@media screen and (min-width: 1920px) {
-    h1 {
-        font-size: 3vw;
-      }
-      h2 {
-        font-size: 2vw;
-      }
-}
-body {
-    background: whitesmoke;
-    font-weight: normal;
-    font-family: "Times New Roman", Times, serif;
-  }
-
-  hr {
-    margin-left: 10%;
-    margin-right: 10%;
-  }
   h1 {
-    color: black;
-    padding-left: 10vw;
+    font-size: 5vw;
   }
   h2 {
-    color: blue;
-    padding-left: 10vw;
+    font-size: 3vw;
   }
+}
+@media screen and (min-width: 1920px) {
+  h1 {
+    font-size: 3vw;
+  }
+  h2 {
+    font-size: 2vw;
+  }
+}
+body {
+  background: whitesmoke;
+  font-weight: normal;
+  font-family: "Times New Roman", Times, serif;
+}
 
-  .fa-solid {
-    color: black;
-    text-align: right;
-    font-size: 4vw;
-  }
+hr {
+  margin-left: 10%;
+  margin-right: 10%;
+}
+h1 {
+  color: black;
+  padding-left: 10vw;
+}
+h2 {
+  color: blue;
+  padding-left: 10vw;
+}
 
-  .container > div {
-    width: 100%;
-    box-sizing: border-box;
-  }
-  .meme1 > img {
-    display: flex;
-    margin-left: auto;
-    margin-right: auto;
-    text-align: center;
-    width: 50%;
-  }
-  .meme1 .fa-solid {
-    transform: rotate(45deg);
-  }
-  .meme > img {
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-    width: 0%;
-  }
-  table {
-    width: 95%;
-    border-left-width: 5em;
-    border-right-width: 5em;
-  }
+.fa-solid {
+  color: black;
+  text-align: right;
+  font-size: 4vw;
+}
+
+.container > div {
+  width: 100%;
+  box-sizing: border-box;
+}
+.meme1 > img {
+  display: flex;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+  width: 50%;
+}
+.meme1 .fa-solid {
+  transform: rotate(45deg);
+}
+.meme > img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 0%;
+}
+table {
+  width: 95%;
+  border-left-width: 5em;
+  border-right-width: 5em;
+}
+@media (hover: hover) {
   .container:hover {
     cursor: pointer;
   }
+}
+@media (hover: hover) {
   .container:hover h2 {
     color: black;
     cursor: pointer;
   }
-
+}
+@media (hover: hover) {
   .meme:hover img {
     width: 50%;
     transition-duration: 1.5s;
   }
+}
+@media (hover: hover) {
   .meme:hover .fa-solid {
     transition-duration: 0.5s;
     transform: rotate(45deg);
   }
-  .meme1:focus img {
-    width: 0%;
-  }
+}
+.meme1:focus img {
+  width: 0%;
+}
 .meme:focus img {
-width:50%;
+  width: 50%;
 }
