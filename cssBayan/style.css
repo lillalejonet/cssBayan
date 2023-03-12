@@ -20,18 +20,24 @@ h2 {
 .fa-solid {
   color: black;
   text-align: right;
-  font-size: 1.5em;
+  font-size: 2em;
 }
 
 .container > div {
   width: 100%;
   box-sizing: border-box;
 }
-img {
+meme1 > img {
+  display: flex;
+  margin-left: auto;
+  margin-right: auto;
+  width: 80%;
+}
+.meme > img {
   display: block;
   margin-left: auto;
   margin-right: auto;
-  width: 50%;
+  width: 0%;
 }
 table {
   width: 95%;
@@ -39,9 +45,18 @@ table {
   border-right-width: 5em;
 }
 .container:hover {
+  cursor: pointer;
+}
+.container:hover h2 {
   color: black;
   cursor: pointer;
 }
-img:hover {
+
+.meme:hover img {
   width: 80%;
+  transition-duration: 1.5s;
 }
+.meme:hover .fa-solid {
+    transition-duration: 0.5s;
+    transform: rotate(45deg);
+   }
