@@ -1,3 +1,27 @@
+@media screen and (min-width: 568px) {
+  h1 {
+    font-size: 8vw;
+  }
+  h2 {
+    font-size: 4vw;
+  }
+}
+@media screen and (min-width: 1180px) {
+    h1 {
+        font-size: 6vw;
+      }
+      h2 {
+        font-size: 3vw;
+      }
+}
+@media screen and (min-width: 1920px) {
+    h1 {
+        font-size: 4vw;
+      }
+      h2 {
+        font-size: 2vw;
+      }
+}
 body {
   background: whitesmoke;
   font-weight: normal;
@@ -10,28 +34,32 @@ hr {
 }
 h1 {
   color: black;
-  padding-left: 10%;
+  padding-left: 10vw;
 }
 h2 {
   color: blue;
-  padding-left: 10%;
+  padding-left: 10vw;
 }
 
 .fa-solid {
   color: black;
   text-align: right;
-  font-size: 2em;
+  font-size: 4vw;
 }
 
 .container > div {
   width: 100%;
   box-sizing: border-box;
 }
-meme1 > img {
+.meme1 > img {
   display: flex;
   margin-left: auto;
   margin-right: auto;
-  width: 80%;
+  text-align: center;
+  width: 50%;
+}
+.meme1 .fa-solid {
+  transform: rotate(45deg);
 }
 .meme > img {
   display: block;
@@ -53,10 +81,13 @@ table {
 }
 
 .meme:hover img {
-  width: 80%;
+  width: 50%;
   transition-duration: 1.5s;
 }
 .meme:hover .fa-solid {
-    transition-duration: 0.5s;
-    transform: rotate(45deg);
-   }
+  transition-duration: 0.5s;
+  transform: rotate(45deg);
+}
+.meme:active img {
+  width: 80%;
+}
